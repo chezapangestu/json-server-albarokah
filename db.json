@@ -1,86 +1,88 @@
 {
-  "code": 200,
-  "status": "OK",
-  "data": {
-    "timings": {
-      "Fajr": "04:35",
-      "Sunrise": "05:59",
-      "Dhuhr": "11:49",
-      "Asr": "15:10",
-      "Sunset": "17:40",
-      "Maghrib": "17:46",
-      "Isha": "18:55",
-      "Imsak": "04:25",
-      "Midnight": "23:44",
-      "Firstthird": "21:45",
-      "Lastthird": "01:50"
-    },
-    "date": {
-      "readable": "31 May 2023",
-      "timestamp": "1685491200",
-      "hijri": {
-        "date": "11-11-1444",
-        "format": "DD-MM-YYYY",
-        "day": "11",
-        "weekday": {
-          "en": "Al Arba'a",
-          "ar": "الاربعاء"
-        },
-        "month": {
-          "number": 11,
-          "en": "Dhū al-Qaʿdah",
-          "ar": "ذوالقعدة"
-        },
-        "year": "1444",
-        "designation": {
-          "abbreviated": "AH",
-          "expanded": "Anno Hegirae"
-        },
-        "holidays": []
+  "code": [200],
+  "status": ["OK"],
+  "data": [
+    {
+      "timings": {
+        "Fajr": "04:35",
+        "Sunrise": "05:59",
+        "Dhuhr": "11:49",
+        "Asr": "15:10",
+        "Sunset": "17:40",
+        "Maghrib": "17:46",
+        "Isha": "18:55",
+        "Imsak": "04:25",
+        "Midnight": "23:44",
+        "Firstthird": "21:45",
+        "Lastthird": "01:50"
       },
-      "gregorian": {
-        "date": "31-05-2023",
-        "format": "DD-MM-YYYY",
-        "day": "31",
-        "weekday": {
-          "en": "Wednesday"
+      "date": {
+        "readable": "31 May 2023",
+        "timestamp": "1685491200",
+        "hijri": {
+          "date": "11-11-1444",
+          "format": "DD-MM-YYYY",
+          "day": "11",
+          "weekday": {
+            "en": "Al Arba'a",
+            "ar": "الاربعاء"
+          },
+          "month": {
+            "number": 11,
+            "en": "Dhū al-Qaʿdah",
+            "ar": "ذوالقعدة"
+          },
+          "year": "1444",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
         },
-        "month": {
-          "number": 5,
-          "en": "May"
-        },
-        "year": "2023",
-        "designation": {
-          "abbreviated": "AD",
-          "expanded": "Anno Domini"
-        }
-      }
-    },
-    "meta": {
-      "latitude": -6.844635,
-      "longitude": 107.580877,
-      "timezone": "Asia/Jakarta",
-      "method": {
-        "id": 15,
-        "name": "Moonsighting Committee Worldwide (Moonsighting.com)",
-        "params": {
-          "shafaq": "general"
+        "gregorian": {
+          "date": "31-05-2023",
+          "format": "DD-MM-YYYY",
+          "day": "31",
+          "weekday": {
+            "en": "Wednesday"
+          },
+          "month": {
+            "number": 5,
+            "en": "May"
+          },
+          "year": "2023",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
         }
       },
-      "latitudeAdjustmentMethod": "NONE",
-      "midnightMode": "STANDARD",
-      "school": "STANDARD",
-      "offset": {
-        "Imsak": "-2",
-        "Fajr": " -2",
-        "Sunrise": " 4",
-        "Dhuhr": " 2",
-        "Asr": " 1",
-        "Maghrib": " 6",
-        "Sunset": 0,
-        "Isha": " -2",
-        "Midnight": " -3"
+      "meta": {
+        "latitude": -6.844635,
+        "longitude": 107.580877,
+        "timezone": "Asia/Jakarta",
+        "method": {
+          "id": 15,
+          "name": "Moonsighting Committee Worldwide (Moonsighting.com)",
+          "params": {
+            "shafaq": "general"
+          }
+        },
+        "latitudeAdjustmentMethod": "NONE",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": "-2",
+          "Fajr": " -2",
+          "Sunrise": " 4",
+          "Dhuhr": " 2",
+          "Asr": " 1",
+          "Maghrib": " 6",
+          "Sunset": 0,
+          "Isha": " -2",
+          "Midnight": " -3"
+        }
       }
     }
-  }
+  ]
 }
